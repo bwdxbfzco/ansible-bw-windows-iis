@@ -1,0 +1,4 @@
+---
+roles:
+  # install Windows IIS Webserver from Galaxy
+  - name: cchurch.win-iis

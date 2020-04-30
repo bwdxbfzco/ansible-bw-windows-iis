@@ -1,0 +1,7 @@
+---
+# tasks file for Windows IIS Webserver installation
+ - name: Configure Windows IIS Webserver
+   become: true
+   hosts: all
+   roles: 
+    - cchurch.win-iis
